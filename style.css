@@ -10,3 +10,10 @@
     align-items: center;
     justify-content: center;
 }
+main {
+    display: flex;
+}
+#evaluation-form {
+    display: flex;
+    width: 675px;
+}
