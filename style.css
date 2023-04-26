@@ -32,38 +32,37 @@ main {
 }
 
 #input-email {
-    width: 45%;
+  width: 45%;
 }
 
 #input-name {
-    width: 45%;
+  width: 45%;
 }
 
 #input-lastname {
-    width: 45%;
+  width: 45%;
 }
 
 #house {
-    width: 38%
+  width: 38%;
 }
 
 #label-family {
-    display:grid;
-    justify-content:start ;
-
+  display: grid;
+  justify-content: start;
 }
 
 #label-content {
-    width: 100%;
-    display:grid;
+  width: 100%;
+  display: grid;
 }
 
 #div-family {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #div-content {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
