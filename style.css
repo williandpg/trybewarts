@@ -30,23 +30,29 @@ main {
 #name-container {
   display: flex;
 }
+
 #input-email {
     width: 45%;
 }
+
 #input-name {
     width: 45%;
 }
+
 #input-lastname {
     width: 45%;
 }
+
 #house {
     width: 38%
 }
+
 #label-family {
     display:grid;
     justify-content:start ;
 
 }
+
 #label-content {
     width: 100%;
     display:grid;
