@@ -38,14 +38,15 @@
             <input type="radio" name="family" value="Backend">Backend
             <input type="radio" name="family" value="FullStack">FullStack
         </div>
-      <label id="label-content">Qual conteúdo você está com mais vontade de aprender?
-          <input type="checkbox" class="subject" value="HoFs">HoFs
-          <input type="checkbox" class="subject" value="Jest">Jest
-          <input type="checkbox" class="subject" value="Promises">Promises 
-          <input type="checkbox" class="subject" value="React">React
-          <input type="checkbox" class="subject" value="SQL">SQL
-          <input type="checkbox" class="subject" value="Python">Python 
-        </label>
+    <div id="div-content">
+            <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+            <input type="checkbox" class="subject" value="HoFs">HoFs
+            <input type="checkbox" class="subject" value="Jest">Jest
+            <input type="checkbox" class="subject" value="Promises">Promises 
+            <input type="checkbox" class="subject" value="React">React
+            <input type="checkbox" class="subject" value="SQL">SQL
+            <input type="checkbox" class="subject" value="Python">Python
+    </div>
         <label id="label-rate" for="">Como você avalia a Trybewarts?
             <input type="radio" name="rate" value="1">1
             <input type="radio" name="rate" value="2">2
@@ -59,7 +60,7 @@
             <input type="radio" name="rate" value="10">10
         </label>
         <label class="textarea">Deixe seu comentário:</label>
-        <input type="textarea" cols="400">
+        <textarea id="textarea" cols="30" rows="35" maxlength="500"></textarea>
     </form>
         <img id="trybewarts-forms-logo" src="/images/trybewarts-colored.svg" alt="logo trybewarts colorido">
 </main>
