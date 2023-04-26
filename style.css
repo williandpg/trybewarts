@@ -51,3 +51,8 @@ main {
     width: 100%;
     display:grid;
 }
+
+#div-family {
+    display: flex;
+    flex-direction: column;
+}
