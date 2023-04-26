@@ -5,16 +5,23 @@
     height: 100px;
     justify-content: space-between;
 }
+
 .trybewarts-login {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 main {
     display: flex;
 }
+
 #evaluation-form {
     display: flex;
     width: 675px;
     flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+    height: 500px;
 }
