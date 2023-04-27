@@ -66,3 +66,12 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+footer {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  height: 100px;
+}

@@ -9,3 +9,20 @@ const btn = () => {
   }
 };
 button.addEventListener('click', btn);
+
+const btnEnviar = document.querySelector('#submit-btn');
+const check = document.querySelector('#agreement');
+
+check.addEventListener('click', () => {
+  if (check.checked === true) {
+    btnEnviar.disabled = false;
+  } else {
+    btnEnviar.disabled = true;
+  }
+});
+
+const inputTextarea = document.getElementById('textarea');
+const counterTextarea = document.getElementById('counter');
+inputTextarea.addEventListener('keyup', () => {
+  counterTextarea.innerHTML = 500 - inputTextarea.value.length;
+});
