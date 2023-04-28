@@ -12,7 +12,6 @@ button.addEventListener('click', btn);
 
 const btnEnviar = document.querySelector('#submit-btn');
 const check = document.querySelector('#agreement');
-
 check.addEventListener('click', () => {
   if (check.checked === true) {
     btnEnviar.disabled = false;
