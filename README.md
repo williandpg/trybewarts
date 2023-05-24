@@ -21,8 +21,8 @@ O projeto está finalizado com todos os requisitos atendidos. Onde foram realiza
 Se você tiver alguma dúvida relacionado a este projeto, sinta-se à vontade para abrir uma "Issue" aqui no GitHub.
 
 ## Autores
-Willian Gonçalves - Desenvolvedor(a) do projeto
-Wendel Borges - Desenvolvedor(a) do projeto
+- Willian Gonçalves - Desenvolvedor(a) do projeto
+- Wendel Borges - Desenvolvedor(a) do projeto
 
 ## Agradecimentos
 Sua participação é fundamental para tornar a Escola de Magia de Trybewarts ainda mais mágica. Divirta-se desenvolvendo e compartilhe sua magia com o mundo!
